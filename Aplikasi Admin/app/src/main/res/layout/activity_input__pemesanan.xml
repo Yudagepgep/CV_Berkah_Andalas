@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Pemesanan_Costumer.Input_Pemesanan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="10dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/TextView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="6dp"
+                    android:text="PEMESANAN"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18dp" />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="ID Anda"
+                        android:textColor="#FC0303"
+                        android:textSize="18dp" />
+
+
+                    <TextView
+                        android:id="@+id/nama_user"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/form_input"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:textColorHint="#000"
+                        android:textSize="24sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:text="Tanggal"
+                        android:layout_marginTop="6dp"
+                        android:layout_width="match_parent"
+                        android:textSize="18dp"
+                        android:textColor="#FC0303"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content"/>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/Layoutinput1"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:textColorHint="#FC0303"
+                        android:layout_height="wrap_content">
+
+
+                        <EditText
+                            android:paddingLeft="10dp"
+                            android:textColor="#000"
+                            android:id="@+id/tgl_pesanan"
+                            android:focusable="false"
+                            android:layout_width="match_parent"
+                            android:background="@drawable/form_input"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            android:hint=""
+                            />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:text="Banyak Pesanan"
+                        android:layout_marginTop="6dp"
+                        android:layout_width="match_parent"
+                        android:textSize="18dp"
+                        android:textColor="#FC0303"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content"/>
+
+                    <com.google.android.material.textfield.TextInputLayout
+
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:textColorHint="#000"
+                        android:layout_height="wrap_content">
+
+
+                        <EditText
+                            android:paddingLeft="10dp"
+                            android:textColor="#000"
+                            android:id="@+id/byk_pesan"
+                            android:layout_width="match_parent"
+                            android:background="@drawable/form_input"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            android:hint=""
+                            />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:text="Jenis Pesanan"
+                        android:layout_marginTop="6dp"
+                        android:layout_width="match_parent"
+                        android:textSize="18dp"
+                        android:textColor="#FC0303"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content"/>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:textColorHint="#000"
+                        android:layout_height="wrap_content">
+
+
+                        <EditText
+                            android:paddingLeft="10dp"
+                            android:textColor="#000"
+                            android:id="@+id/jenis_pesan"
+                            android:layout_width="match_parent"
+                            android:background="@drawable/form_input"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            android:hint=""
+                            />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:text="Keterangan"
+                        android:layout_marginTop="6dp"
+                        android:layout_width="match_parent"
+                        android:textSize="18dp"
+                        android:textColor="#FC0303"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content"/>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:textColorHint="#000"
+                        android:layout_height="wrap_content">
+
+
+                        <EditText
+                            android:paddingLeft="10dp"
+                            android:textColor="#000"
+                            android:id="@+id/ket"
+                            android:layout_width="match_parent"
+                            android:background="@drawable/form_input"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            android:hint="" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/batal_pemesanan"
+                        android:layout_width="152dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="40dp"
+                        android:background="@drawable/form_merah"
+                        android:text="BATAL"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/pesanan_costumer"
+                        android:layout_width="152dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="40dp"
+                        android:background="@drawable/form_birut"
+                        android:text="Kirm Pesanan"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

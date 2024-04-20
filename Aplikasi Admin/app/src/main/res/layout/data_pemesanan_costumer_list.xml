@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="40dp"
+                        android:text="Tanggal                      :"
+                        android:textColor="#000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/tanggal_pemesanan"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:paddingLeft="15dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="40dp"
+                        android:text="Nama Costumer       :"
+                        android:textColor="#000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/costumer_pemesanan"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:paddingLeft="15dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="40dp"
+                        android:text="Nama Produk            :"
+                        android:textColor="#000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/produk_pemesanan"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:paddingLeft="15dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="40dp"
+                        android:text="Nama Bahan              :"
+                        android:textColor="#000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/bahan_pemesanan"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:paddingLeft="15dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="40dp"
+                        android:text="Nama Plat                  :"
+                        android:textColor="#000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/plat_pemesanan"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:paddingLeft="15dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="40dp"
+                        android:text="Quantity                      :"
+                        android:textColor="#000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/quantity_pemesanan"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:paddingLeft="15dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="40dp"
+                        android:text="Ukuran Bahan            : "
+                        android:textColor="#000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/txt_lb_bahan"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="0dp"
+                        android:paddingLeft="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/x1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="0dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="X"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txt_tg_bahan"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="0dp"
+                        android:paddingLeft="15dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="40dp"
+                        android:text="Ukuran Cetak            :"
+                        android:textColor="#000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/txt_lb_cetak"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="0dp"
+                        android:paddingLeft="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/x2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="0dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="X"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txt_tg_cetak"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="0dp"
+                        android:paddingLeft="15dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="40dp"
+                        android:text="Banyak Bahan            :"
+                        android:textColor="#000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/banyak_bahan_pemesanan"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:paddingLeft="15dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="40dp"
+                        android:text="Satuan                         :"
+                        android:textColor="#000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/satuan_pemesanan"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:paddingLeft="15dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="40dp"
+                        android:text="Total Harga                :"
+                        android:textColor="#000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/total_harga_pemesanan"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:paddingLeft="15dp"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="40dp"
+                        android:text="STATUS                      :"
+                        android:textColor="#000"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/status_pemesanan"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:paddingLeft="15dp"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

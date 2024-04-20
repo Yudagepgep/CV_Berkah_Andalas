@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/tb_data_pemesanan"
+        android:title="Laporan Pemesanan"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/tb_antrian"
+        android:title="Antrian"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/tb_produk"
+        android:title="Produk"
+        app:showAsAction="never" />
+    <item
+    android:id="@+id/tb_bahan"
+    android:title="Bahan"
+    app:showAsAction="never" />
+    <item
+        android:id="@+id/tb_data_plat"
+        android:title="Plat"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aplikasi.ADMIN">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Pemesanan_Costumer.Pemesanan"/>
+        <activity android:name=".Pemesanan_Costumer.Data_Pemesanan_Costumer"/>
+        <activity android:name=".Pemesanan_Costumer.Input_Pemesanan"/>
+        <activity android:name=".Plat.Tambah_Plat"/>
+        <activity android:name=".Plat.Edit_Plat"/>
+        <activity android:name=".Plat.Data_Plat"/>
+        <activity android:name=".Bahan.Tambah_Bahan"/>
+        <activity android:name=".Bahan.Edit_Bahan"/>
+        <activity android:name=".Bahan.Data_Bahan"/>
+        <activity android:name=".Produk.Edit_Produk"/>
+        <activity android:name=".Produk.Main_Tambah_Produk"/>
+        <activity android:name=".Produk.Data_Produk"/>
+        <activity android:name=".ANTRIAN.Simpan_Antrian"/>
+        <activity android:name=".Tabel.Edit_Data_Antrian"/>
+        <activity android:name=".Tabel.Tabel_Antrian"/>
+        <activity android:name=".ANTRIAN.Data_Antrian"/>
+        <activity android:name=".LAPORAN.Detail_Laporan"/>
+        <activity android:name=".LAPORAN.Laporan_Pesanan"/>
+        <activity android:name=".Pemesanan_Costumer.MENU_COSTUMER"/>
+        <activity android:name=".MENU"/>
+        <activity android:name=".input.INPUT_PESANAN"/>
+        <activity android:name=".LOGIN.Register"/>
+        <activity android:name=".LOGIN.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+</manifest>
